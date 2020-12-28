@@ -9,8 +9,8 @@ $('.carousel.carousel-slider').carousel({
   indicators: true,
 });
      
-// autoplay();
-// function autoplay() {
-//     $('.carousel').carousel('next');
-//     setTimeout(autoplay, 6000);
-// }
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 6000);
+}
