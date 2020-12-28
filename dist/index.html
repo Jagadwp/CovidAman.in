@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>COVID-19 Aman~</title>
+
+		<!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+
+		<!-- google font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- fontawesome -->
+		<script src="https://kit.fontawesome.com/9d5222a814.js" crossorigin="anonymous"></script>
+
+		<!-- logo -->
+		<link rel="icon" href="./images/covid19.png" type="image/icon type" />
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">CovidAman.in</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a class="day"></a></li>
+					<li><a class="date"></a></li>
+					<li><a class="hour" href="#"></a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="#kasusIndo">Indonesia</a></li>
+			<li><a href="#kasusLuarNegeri">Negara Lain</a></li>
+			<li><a href="#deteksiDini">Deteksi Dini</a></li>
+			<li><a href="#tipsKesehatan">Tips Kesehatan</a></li>
+		</ul>
+
+		<!-- carousel -->
+		<div id="carousel-box" class="carousel carousel-slider center">
+			<div class="carousel-item one" href="#one!">
+				<h2 class="slider-text">Data Covid-19 di Indonesia</h2>
+				<em>Total konfirmasi, total sembuh, dan total kematian, dll.</em>
+			</div>
+			<div class="carousel-item two" href="#two!">
+				<h2 class="slider-text">Cari Data Covid-19 di Luar Negeri</h2>
+				<em>Total konfirmasi, total sembuh, dan total kematian</em>
+			</div>
+			<div class="carousel-item three" href="#three!">
+				<h2>Deteksi Dini</h2>
+				<em>Ajukan deteksi dini kepada tenaga Kesehatan daerah anda</em>
+			</div>
+			<div class="carousel-item four" href="#four!">
+				<h2 class="slider-text">Tips Kesehatan</h2>
+				<em>Cara efektif mencegah diri dari penularan Covid-19</em>
+			</div>
+		</div>
+
+		<!-- data indonesia -->
+		<section class="stat-container" id="kasusIndo">
+			<div class="stat-box-header">
+				<img class="flag-icon" src="imgs/indoFlag.bf62e3300c5d5ed386f04beb9b3efabf.png" alt="indo-flag" />
+				<h3>di Indonesia</h3>
+			</div>
+			<div class="stat-box-container row">
+				<div class="stat-box col s12 l4 m4">
+					<div class="stat-data blue darken-1">
+						<h4>Total Positif</h4>
+						<div id="stat-confirmed"></div>
+						<em><span id="fixPer1Juta">--</span>kasus / 1 juta populasi</em>
+					</div>
+				</div>
+				<div class="stat-box col s12 l4 m4">
+					<div class="stat-data green darken-2">
+						<h4>Total Sembuh</h4>
+						<div id="stat-recovered"></div>
+						<em><span id="sembuh">--</span>dari total kasus positif</em>
+					</div>
+				</div>
+				<div class="stat-box col s12 l4 m4">
+					<div class="stat-data red darken-1">
+						<h4>Total Kematian</h4>
+						<div id="stat-deaths"></div>
+						<em>Angka kematian<span id="mati">--</span></em>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Call to Action / data luar negeri-->
+		<section id="cta">
+			<div class="tes-container" id="kasusLuarNegeri">
+				<h3 class="cta-heading">Cari data Covid-19 di negara lain.</h3>
+				<search-bar></search-bar>
+
+				<div class="row foreign-box" style="margin-top: 7%">
+					<div class="stat-box col s12 l4 m4">
+						<div class="stat-data blue">
+							<h4>Total Positif</h4>
+							<div id="foreign-confirmed">--</div>
+						</div>
+					</div>
+					<div class="stat-box col s12 l4 m4">
+						<div class="stat-data green ligthen-2">
+							<h4>Total Sembuh</h4>
+							<div id="foreign-recovered">--</div>
+						</div>
+					</div>
+					<div class="stat-box col s12 l4 m4">
+						<div class="stat-data red">
+							<h4>Total Kematian</h4>
+							<div id="foreign-deaths">--</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Tips -->
+		<section id="tips">
+			<div id="tipsKesehatan" class="tips-box-header">
+				<img class="flag-icon" src="imgs/handbook-medicine.f98ce909aca5b3eacf789be7ba09a91c.png" alt="bukuMedis" />
+				<h3>Tips Kesehatan</h3>
+			</div>
+			<div class="row align-items-center">
+				<div class="tips-box col m12 l4">
+					<div class="tips-card">
+						<div>
+							<img class="tips-image" src="imgs/cucitangan.e9cd575c2981b89d611aa246baac3e56.png" alt="cucitanganmu" />
+						</div>
+						<div class="card-body">
+							<h4>Rajin Cuci Tangan</h4>
+							<p>Selalu mencuci tangan dengan sabun selama 20 detik</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="tips-box middle-box col m12 l4">
+					<div class="tips-card">
+						<div>
+							<img class="tips-image" src="imgs/masker.92ab81ac5d0d107046a30a03a3ac10aa.png" alt="pakaimasker" />
+						</div>
+						<div class="card-body">
+							<h4>Pakai Masker</h4>
+							<p>Selalu memakai masker saat keluar rumah apapun kegiatannya</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="tips-box col m12 l4">
+					<div class="tips-card">
+						<div>
+							<img class="tips-image" src="imgs/jagaJarak.ef0fdb0eeb25ebced98b99681746c539.png" alt="jagajarak" />
+						</div>
+						<div class="card-body">
+							<h4>Jaga Jarak</h4>
+							<p>Usahakan sebisa mungkin menjaga jarak aman di ruang publik</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="socialmedia-box" style="display: flex; justify-content: center">
+				<div>
+					<a href="https://id-id.facebook.com/jagadwijaya.purnomo" target="_blank"
+						><i class="fab fa-facebook-f"></i
+					></a>
+				</div>
+				<div>
+					<a href="https://www.instagram.com/jagad_wp/?hl=id" target="_blank"><i class="fab fa-instagram"></i></a>
+				</div>
+				<div>
+					<a href="https://jagadwijaya.wordpress.com" target="_blank"><i class="fab fa-wordpress-simple"></i></a>
+				</div>
+			</div>
+			<p>©Developed by Jagad Wijaya Purnomo</p>
+		</footer>
+
+		<!-- materialize script -->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<!-- <script src="js/materialize.js"></script>
+		<script src="js/init.js"></script> -->
+	<script type="text/javascript" src="bundle.js"></script></body>
+</html>

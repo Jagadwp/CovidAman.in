@@ -1,0 +1,213 @@
+body {
+	font-family: "Montserrat", "Ubuntu", sans-serif;
+	background-color: #fff;
+	color: #343a40;
+}
+h3,
+#tips h4 {
+	font-weight: bold;
+	font-size: 1.75rem;
+}
+p {
+	color: #8f8f8f;
+}
+
+/* navigation */
+nav {
+	background-color: #fdfd55;
+	box-shadow: none;
+	position: sticky;
+	top: 0;
+	z-index: 900;
+}
+nav ul {
+	margin-right: 8vw;
+}
+nav ul a,
+nav a {
+	color: #343a40;
+}
+nav .brand-logo {
+	color: #343a40;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 1.75rem;
+	font-weight: bold;
+	margin-left: 8vw;
+}
+.sidenav {
+	width: 250px;
+}
+
+/* carousel*/
+.carousel-item {
+	padding: 5% 15%;
+	text-align: left;
+	color: #343a40;
+}
+.one {
+	background: #fdfd55 url("../images/corona19_2.png") 80% 1vw / 30% 80% no-repeat;
+}
+.two {
+	background: #fdfd55 url("../images/covid19.png") 80% 1vw / 30% 80% no-repeat;
+}
+.three {
+	background: #fdfd55 url("../images/jagaJarak.png") 80% 1vw / 30% 80% no-repeat;
+}
+.four {
+	background: #fdfd55 url("../images/handbook-medicine.png") 80% 1vw / 30% 80% no-repeat;
+}
+.carousel.carousel-slider .carousel-item h2 {
+	font-size: 3rem;
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+/* statistik Indonesia */
+.flag-icon {
+	max-height: 35px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+.stat-container {
+	padding: 7% 5%;
+	margin: 0;
+}
+.row .col.l4 {
+	padding: 0 2vw;
+}
+.stat-box-header {
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.stat-data {
+	color: white;
+	padding: 3% 12% 7%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 20px 10px;
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+}
+.stat-data h4 {
+	font-size: 1.75rem;
+}
+.stat-data em {
+	font-size: 0.8rem;
+}
+
+/* Foreign Search */
+#cta {
+	background: #fdfd55 url("../images/covid19.png") 88% 28% / 30% 80% no-repeat;
+	color: #343a40;
+	padding: 7% 15%;
+	text-align: left;
+}
+.cta-heading {
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 1.5;
+}
+
+/* tips */
+#tips {
+	padding: 7% 100px;
+	text-align: center;
+}
+.tips-box {
+	padding: 3% 0;
+}
+.tips-box-header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.tips-card {
+	padding-top: 35px;
+	border-radius: 0px;
+	border: 0;
+}
+.tips-image {
+	max-width: 150px;
+	object-fit: contain;
+}
+
+/* footer */
+#footer {
+	background-color: #343a40;
+	text-align: center;
+	padding-bottom: 1px;
+}
+
+#footer p {
+	color: #fff;
+	font-weight: 300;
+}
+
+#footer i {
+	margin: 30px 15px 20px;
+}
+.fab {
+	color: #fff;
+}
+
+/* css breakpoint */
+
+@media (max-width: 1024px) {
+	.stat-data h4 {
+		font-size: 1.5rem;
+	}
+	.stat-data {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* md */
+
+	.stat-data {
+		margin-bottom: 20px;
+	}
+	#cta {
+		background: #fdfd55 url("../images/covid19.png") 88% 12% / 40% 40% no-repeat;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	/* carousel sm*/
+	.carousel-item {
+		padding: 10% 15%;
+	}
+
+	/* statistik indonesia sm*/
+	.flag-icon {
+		max-height: 25px;
+	}
+
+	.stat-box-container {
+		margin-top: 20px;
+	}
+
+	/* search sm */
+	.cta-heading {
+		font-size: 1.25rem;
+		margin-bottom: 20px;
+	}
+
+	/* tips sm*/
+	#tips {
+		padding: 10% 15%;
+	}
+	.tips-card {
+		padding-top: 15px;
+	}
+	.tips-box-header {
+		margin-bottom: 20px;
+	}
+
+	/* footer sm*/
+	#footer p {
+		font-size: 0.75rem;
+	}
+}
