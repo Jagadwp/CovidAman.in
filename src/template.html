@@ -13,7 +13,8 @@
 			rel="stylesheet"
 		/>
 
-		<!-- fontawesome -->
+		<!-- icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/9d5222a814.js" crossorigin="anonymous"></script>
 
 		<!-- logo -->
@@ -51,19 +52,19 @@
 				<em>Total konfirmasi, total sembuh, dan total kematian</em>
 			</div>
 			<div class="carousel-item three" href="#three!">
-				<h2>Deteksi Dini</h2>
-				<em>Ajukan deteksi dini kepada tenaga Kesehatan daerah anda</em>
-			</div>
-			<div class="carousel-item four" href="#four!">
 				<h2 class="slider-text">Tips Kesehatan</h2>
 				<em>Cara efektif mencegah diri dari penularan Covid-19</em>
+			</div>
+			<div class="carousel-item four" href="#four!">
+				<h2>Deteksi Dini</h2>
+				<em>Ajukan deteksi dini kepada tenaga kesehatan setempat</em>
 			</div>
 		</div>
 
 		<!-- data indonesia -->
 		<section class="stat-container" id="kasusIndo">
 			<div class="stat-box-header">
-				<img class="flag-icon" src="./images/indoFlag.png" alt="indo-flag" />
+				<img class="header-icon" src="./images/indoFlag.png" alt="indo-flag" />
 				<h3>di Indonesia</h3>
 			</div>
 			<div class="stat-box-container row">
@@ -123,7 +124,7 @@
 		<!-- Tips -->
 		<section id="tips">
 			<div id="tipsKesehatan" class="tips-box-header">
-				<img class="flag-icon" src="./images/handbook-medicine.png" alt="bukuMedis" />
+				<img class="header-icon" src="./images/handbook-medicine.png" alt="bukuMedis" />
 				<h3>Tips Kesehatan</h3>
 			</div>
 			<div class="row align-items-center">
@@ -162,6 +163,62 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<!-- deteksi dini -->
+		<section id="deteksiDini">
+			<div class="row">
+				<img class="col header-icon deteksi-header" src="./images/deteksi-dini.png" alt="deteksi" />
+				<h3 class="col">Deteksi Dini</h3>
+			</div>
+			<div class="row" style="padding: 0 4vw;">
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="" id="nama" type="text" class="validate" />
+							<label for="name">Nama</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="" id="NIK" type="text" class="validate" />
+							<label for="NIK">NIK</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12 m6">
+							<input placeholder="" id="kota" type="text" class="validate" />
+							<label for="city">Kota</label>
+						</div>
+						<div class="input-field col s12 m6">
+							<input placeholder="" id="kecamatan" type="text" class="validate" />
+							<label for="district">Kecamatan</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="" id="alamat" type="text" class="validate" />
+							<label for="address">Alamat Lengkap</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="" id="telepon" type="text" class="validate" />
+							<label for="telepon">No. Telepon</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input placeholder="" id="keluhan" type="text" class="validate" />
+							<label for="keluhan">Deskripsi Keluhan</label>
+						</div>
+					</div>
+
+					<button class="btn waves-effect waves-light" type="submit" name="action">Kirim
+						<i class="material-icons right">send</i>
+					 </button>
+				</form>
 			</div>
 		</section>
 

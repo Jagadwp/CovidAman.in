@@ -51,10 +51,10 @@ nav .brand-logo {
 	background: #fdfd55 url("../images/covid19.png") 80% 1vw / 30% 80% no-repeat;
 }
 .three {
-	background: #fdfd55 url("../images/jagaJarak.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("../images/handbook-medicine.png") 80% 1vw / 30% 80% no-repeat;
 }
 .four {
-	background: #fdfd55 url("../images/handbook-medicine.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("../images/deteksi-dini.png") 80% 1vw / 30% 80% no-repeat;
 }
 .carousel.carousel-slider .carousel-item h2 {
 	font-size: 3rem;
@@ -62,11 +62,11 @@ nav .brand-logo {
 	line-height: 1.5;
 }
 
-/* statistik Indonesia */
-.flag-icon {
+/* data Indonesia */
+.header-icon {
 	max-height: 35px;
 	object-fit: contain;
-	margin-right: 10px;
+	margin-right: 12px;
 }
 .stat-container {
 	padding: 7% 5%;
@@ -96,7 +96,7 @@ nav .brand-logo {
 	font-size: 0.8rem;
 }
 
-/* Foreign Search */
+/* data luar negeri */
 #cta {
 	background: #fdfd55 url("../images/covid19.png") 88% 28% / 30% 80% no-repeat;
 	color: #343a40;
@@ -107,6 +107,21 @@ nav .brand-logo {
 	font-weight: 900;
 	font-size: 2rem;
 	line-height: 1.5;
+}
+
+/* deteksi dini */
+#deteksiDini {
+	margin-top: -6vw;
+	padding: 3vw 7vw;
+	color: #343a40;
+}
+.deteksi-header {
+	max-height: 45px;
+	margin-top: 10px;
+	margin-right: -10px;
+}
+.input-field > label {
+	font-size: 1.2rem;
 }
 
 /* tips */
@@ -163,7 +178,7 @@ nav .brand-logo {
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	/* md */
 
 	.stat-data {
@@ -171,6 +186,9 @@ nav .brand-logo {
 	}
 	#cta {
 		background: #fdfd55 url("../images/covid19.png") 88% 12% / 40% 40% no-repeat;
+	}
+	nav .brand-logo {
+		margin-left: 0;
 	}
 }
 
@@ -181,7 +199,7 @@ nav .brand-logo {
 	}
 
 	/* statistik indonesia sm*/
-	.flag-icon {
+	.header-icon {
 		max-height: 25px;
 	}
 
