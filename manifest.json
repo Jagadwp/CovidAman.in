@@ -1,0 +1,41 @@
+{
+	"name": "CovidAman.in",
+	"short_name": "CovidAman.in",
+	"start_url": "./dist/index.html",
+	"display": "standalone",
+	"background_color": "#fdfd55",
+	"theme_color": "#fdfd55",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "./dist/imgs/covid19-96.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "./dist/imgs/covid19-128.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "./dist/imgs/covid19-152.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "./dist/imgs/covid19-192.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./dist/imgs/covid19-384.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "384x384"
+		},
+		{
+			"src": "./dist/imgs/covid19.f325de0600a60c1c89840a6d1158d20f.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
