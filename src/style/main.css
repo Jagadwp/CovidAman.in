@@ -61,6 +61,14 @@ nav .brand-logo {
 	font-weight: 900;
 	line-height: 1.5;
 }
+.time-box {
+	width: 70%;
+	background-color: #434548;
+	color: white;
+	padding: 10px 0;
+	border-radius: 0 0 20px 20px;
+	font-weight: bold;
+}
 
 /* data Indonesia */
 .header-icon {
@@ -184,6 +192,10 @@ nav .brand-logo {
 	.stat-data {
 		margin-bottom: 20px;
 	}
+	.time-box {
+		width: 100%;
+		border-radius: 0;
+	}
 	#cta {
 		background: #fdfd55 url("../images/covid19.png") 88% 12% / 40% 40% no-repeat;
 	}
@@ -196,6 +208,24 @@ nav .brand-logo {
 	/* carousel sm*/
 	.carousel-item {
 		padding: 10% 15%;
+	}
+	.one {
+		background: #fdfd55 url("../images/corona19_2.png") 80% 30% / 45% 55% no-repeat;
+	}
+	.two {
+		background: #fdfd55 url("../images/covid19.png") 80% 30% / 45% 55% no-repeat;
+	}
+	.three {
+		background: #fdfd55 url("../images/handbook-medicine.png") 80% 30% / 45% 55% no-repeat;
+	}
+	.four {
+		background: #fdfd55 url("../images/deteksi-dini.png") 80% 30% / 45% 55% no-repeat;
+	}
+
+	.time-box {
+		width: 100%;
+		border-radius: 0;
+		font-weight: 400;
 	}
 
 	/* statistik indonesia sm*/

@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>COVID-19 Aman</title>
 
-		<!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
+		<link href="../src/style/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link type="text/css" href="../src/style/main.css" rel="stylesheet" />
+		<script type="text/javascript" src="../src/scripts/materialize.min.js"></script>
 
 		<!-- google font -->
 		<link
@@ -28,34 +30,33 @@
 		<!-- navbar -->
 		<nav>
 			<div class="nav-wrapper">
-				<a href="#!" class="brand-logo">CovidAman.in</a>
+				<a href="../dist/index.html" class="brand-logo">CovidAman.in</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a class="day"></a></li>
-					<li><a class="date"></a></li>
-					<li><a class="hour" href="#"></a></li>
+					<li><a href="/dist/index.html" class="">Beranda</a></li>
+					<li><a href="/pages/gejala.html" class="">Gejala COVID-19</a></li>
+					<li><a href="/pages/kontak.html" class="">Kontak Kami</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="#kasusIndo">Indonesia</a></li>
-			<li><a href="#kasusLuarNegeri">Negara Lain</a></li>
-			<li><a href="#tipsKesehatan">Tips Kesehatan</a></li>
-			<li><a href="#deteksiDini">Deteksi Dini</a></li>
+			<li><a href="/dist/index.html" class="">Beranda</a></li>
+			<li><a href="/pages/gejala.html" class="">Gejala COVID-19</a></li>
+			<li class="active"><a href="/pages/kontak.html" class="">Kontak Kami</a></li>
 		</ul>
 
 		<!-- Tips -->
 		<section id="tips">
 			<div id="tipsKesehatan" class="tips-box-header">
-				<img class="header-icon" src="./images/handbook-medicine.png" alt="bukuMedis" />
+				<img class="header-icon" src="/src/images/handbook-medicine.png" alt="bukuMedis" />
 				<h3>Kontak Kami</h3>
 			</div>
 			<div class="row align-items-center">
 				<div class="tips-box col m12 l4">
 					<div class="tips-card">
 						<div>
-							<img class="tips-image" src="./images/cucitangan.png" alt="cucitanganmu" />
+							<img class="tips-image" src="/src/images/cucitangan.png" alt="cucitanganmu" />
 						</div>
 						<div class="card-body">
 							<h4>Ketua Satgas COVID-19</h4>
@@ -66,7 +67,7 @@
 				<div class="tips-box middle-box col m12 l4">
 					<div class="tips-card">
 						<div>
-							<img class="tips-image" src="./images/masker.png" alt="pakaimasker" />
+							<img class="tips-image" src="/src/images/masker.png" alt="pakaimasker" />
 						</div>
 						<div class="card-body">
 							<h4>Demam</h4>
@@ -77,7 +78,7 @@
 				<div class="tips-box col m12 l4">
 					<div class="tips-card">
 						<div>
-							<img class="tips-image" src="./images/jagaJarak.png" alt="jagajarak" />
+							<img class="tips-image" src="/src/images/jagaJarak.png" alt="jagajarak" />
 						</div>
 						<div class="card-body">
 							<h4>Lemas</h4>
@@ -88,6 +89,9 @@
 			</div>
 		</section>
 	</body>
-	
-	<script type="text/javascript" src="../dist/bundle.js"></script></body>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="../src/scripts/materialize.js"></script>
+	<script src="../src/scripts/init.js"></script>
+	<script src="../src/scripts/time.js"></script>
 </html>
