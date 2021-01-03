@@ -45,16 +45,16 @@ nav .brand-logo {
 	color: #343a40;
 }
 .one {
-	background: #fdfd55 url("../images/corona19_2.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("/dist/imgs/corona19_2.png") 80% 1vw / 30% 80% no-repeat;
 }
 .two {
-	background: #fdfd55 url("../images/covid19.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("/dist/imgs/covid19.png") 80% 1vw / 30% 80% no-repeat;
 }
 .three {
-	background: #fdfd55 url("../images/handbook-medicine.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("/dist/imgs/handbook-medicine.png") 80% 1vw / 30% 80% no-repeat;
 }
 .four {
-	background: #fdfd55 url("../images/deteksi-dini.png") 80% 1vw / 30% 80% no-repeat;
+	background: #fdfd55 url("/dist/imgs/deteksi-dini.png") 80% 1vw / 30% 80% no-repeat;
 }
 .carousel.carousel-slider .carousel-item h2 {
 	font-size: 3rem;

@@ -4,7 +4,9 @@ const assets = [
 	"/dist/index.html",
 	"/dist/app.js",
 	"/dist/bundle.js",
-	"/src/images/corona19_2.png",
+   "/dist/imgs/covid19.png",
+   "/dist/imgs/corona19_2.png",
+   "/dist/imgs/deteksi-dini.png",
 	"/dist/imgs/indoFlag-min.png",
 	"/dist/imgs/handbook-medicine.png",
 	"/dist/imgs/cucitangan.png",
@@ -13,7 +15,8 @@ const assets = [
 	"/pages/kontak.html",
 	"/pages/gejala.html",
 	"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap",
-	"https://fonts.googleapis.com/icon?family=Material+Icons",
+   "https://fonts.googleapis.com/icon?family=Material+Icons",
+   "/src/scripts/materialize.min.js",
 	"https://code.jquery.com/jquery-2.1.1.min.js",
 ];
 
