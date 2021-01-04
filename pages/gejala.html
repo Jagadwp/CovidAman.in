@@ -14,24 +14,39 @@
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-
+		
 		<!-- icon -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-		<script src="https://kit.fontawesome.com/9d5222a814.js" crossorigin="anonymous"></script>
 
 		<!-- logo -->
 		<link rel="icon" href="/dist/imgs/covid19.png" type="image/icon type" />
 	</head>
 	<body>
+		<style>
+			.gejala-image {
+				max-width: 100px;
+				object-fit: contain;
+			}
+			
+			#tips li {
+				list-style-type: square;
+				margin-bottom: 5px;
+			}
+
+			#tips h6 {
+				font-weight: 700;
+			}
+
+		</style>
 		<!-- navbar -->
 		<nav>
 			<div class="nav-wrapper">
 				<a href="../dist/index.html" class="brand-logo">CovidAman.in</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="/dist/index.html" class="">Beranda</a></li>
 					<li><a href="/pages/gejala.html" class="">Gejala COVID-19</a></li>
-					<li><a href="/pages/kontak.html" class="">Kontak Kami</a></li>
+					<li><a href="/pages/kontak.html" class="">Tentang Kami</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -39,48 +54,72 @@
 		<ul class="sidenav" id="mobile-demo">
 			<li><a href="/dist/index.html" class="">Beranda</a></li>
 			<li class="active"><a href="/pages/gejala.html" class="">Gejala COVID-19</a></li>
-			<li><a href="/pages/kontak.html" class="">Kontak Kami</a></li>
+			<li><a href="/pages/kontak.html" class="">Tentang Kami</a></li>
 		</ul>
 
 		<!-- Tips -->
 		<section id="tips">
 			<div id="tipsKesehatan" class="tips-box-header">
 				<img class="header-icon" src="/dist/imgs/handbook-medicine.png" alt="bukuMedis" />
-				<h3>Gejala Covid-19</h3>
+				<h3>Gejala Umum</h3>
 			</div>
 			<div class="row align-items-center">
-				<div class="tips-box col m12 l4">
+				<div class="tips-box col s12 m12 l4">
 					<div class="tips-card">
 						<div>
-							<img class="tips-image" src="/dist/imgs/cucitangan.png" alt="cucitanganmu" />
-						</div>
-						<div class="card-body">
-							<h4>Ketua Satgas COVID-19</h4>
-							<p>Selalu mencuci tangan dengan sabun selama 20 detik</p>
-						</div>
-					</div>
-				</div>
-				<div class="tips-box middle-box col m12 l4">
-					<div class="tips-card">
-						<div>
-							<img class="tips-image" src="/dist/imgs/masker.png" alt="pakaimasker" />
+							<img class="gejala-image" src="/dist/imgs/fever.png" alt="demam" />
 						</div>
 						<div class="card-body">
 							<h4>Demam</h4>
-							<p>Selalu memakai masker saat keluar rumah apapun kegiatannya</p>
+							<p>Demam dengan Suhu tubuh 38 derajat atau lebih</p>
 						</div>
 					</div>
 				</div>
-				<div class="tips-box col m12 l4">
+				<div class="tips-box col s12 m12 l4">
 					<div class="tips-card">
 						<div>
-							<img class="tips-image" src="/dist/imgs/jagaJarak.png" alt="jagajarak" />
+							<img class="gejala-image" src="/dist/imgs/tired.png" alt="lelah" />
 						</div>
 						<div class="card-body">
-							<h4>Lemas</h4>
-							<p>Usahakan sebisa mungkin menjaga jarak aman di ruang publik</p>
+							<h4>Kelelahan</h4>
+							<p>merasa sangat lemah atau lesu, dengan kekurangan energi secara keseluruhan</p>
 						</div>
 					</div>
+				</div>
+				<div class="tips-box col s12 m12 l4">
+					<div class="tips-card">
+						<div>
+							<img class="gejala-image" src="/dist/imgs/cough.png" alt="batuk" />
+						</div>
+						<div class="card-body">
+							<h4>Batuk Kering</h4>
+							<p>Pada batuk kering, batuk keluar tanpa disertai dengan dahak</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="tips" style="padding-top: 0">
+			<div class="row left-align" style="padding: 0 10%;">
+				<div class="col s12 m12 l6">
+					<h6>Gejala yang sedikit tidak umum:</h6>
+					<ul>
+						<li>rasa tidak nyaman dan nyeri</li>
+						<li>nyeri tenggorokan</li>
+						<li>konjungtivitis (mata merah)</li>
+						<li>sakit kepala</li>
+						<li>hilangnya indera perasa atau penciuman</li>
+						<li>ruam pada kulit</li>
+					</ul>
+				</div>
+				<div class="col s12 m12 l6">
+					<h6>Gejala serius:</h6>
+					<ul>
+						<li>kesulitan bernapas atau sesak napas</li>
+						<li>nyeri dada atau rasa tertekan pada dada</li>
+						<li>hilangnya kemampuan berbicara atau bergerak</li>
+					</ul>
 				</div>
 			</div>
 		</section>
