@@ -168,12 +168,8 @@ nav .brand-logo {
 }
 
 #footer i {
-	margin: 30px 15px 20px;
+	margin: 20px 15px 0px;
 }
-.fab {
-	color: #fff;
-}
-
 /* css breakpoint */
 
 @media (max-width: 1024px) {
