@@ -1,8 +1,8 @@
-const staticCacheName = "site-static-v9";
-const dynamicCacheName = "site-dynamic-v8";
+const staticCacheName = "site-static-v5";
+const dynamicCacheName = "site-dynamic-v4";
 const assets = [
 	"/",
-	"/dist/index.html",
+	"/index.html",
 	"/dist/app.js",
 	"/dist/bundle.js",
 	"/dist/imgs/covid19.png",
@@ -13,18 +13,19 @@ const assets = [
 	"/dist/imgs/cucitangan.png",
 	"/dist/imgs/masker.png",
 	"/dist/imgs/jagaJarak.png",
-	"dist/imgs/fever.png",
-	"dist/imgs/tired.png",
-	"dist/imgs/cough.png",
-	"dist/imgs/sir.png",
-	"dist/imgs/doctor.png",
-	"dist/imgs/programmer.png",
-	"dist/imgs/hospital.png",
+	"/dist/imgs/fever.png",
+	"/dist/imgs/tired.png",
+	"/dist/imgs/cough.png",
+	"/dist/imgs/sir.png",
+	"/dist/imgs/doctor.png",
+	"/dist/imgs/programmer.png",
+	"/dist/imgs/hospital.png",
 	"/pages/kontak.html",
 	"/pages/error.html",
 	"https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap",
 	"https://fonts.googleapis.com/icon?family=Material+Icons",
 	"/src/scripts/materialize.min.js",
+	"/src/style/main.css",
 	"https://code.jquery.com/jquery-2.1.1.min.js",
 ];
 

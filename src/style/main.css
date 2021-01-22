@@ -106,7 +106,7 @@ nav .brand-logo {
 
 /* data luar negeri */
 #cta {
-	background: #fdfd55 url("../images/covid19.png") 88% 28% / 30% 80% no-repeat;
+	background: #fdfd55 url("/dist/imgs/covid19.png") 88% 28% / 30% 80% no-repeat;
 	color: #343a40;
 	padding: 7% 15%;
 	text-align: left;
@@ -192,7 +192,7 @@ nav .brand-logo {
 		border-radius: 0;
 	}
 	#cta {
-		background: #fdfd55 url("../images/covid19.png") 88% 12% / 40% 40% no-repeat;
+		background: #fdfd55 url("/dist/imgs/covid19.png") 88% 12% / 40% 40% no-repeat;
 	}
 	nav .brand-logo {
 		margin-left: 0;
@@ -205,16 +205,16 @@ nav .brand-logo {
 		padding: 10% 15%;
 	}
 	.one {
-		background: #fdfd55 url("../images/corona19_2.png") 80% 30% / 45% 55% no-repeat;
+		background: #fdfd55 url("/dist/imgs/corona19_2.png") 80% 30% / 45% 55% no-repeat;
 	}
 	.two {
-		background: #fdfd55 url("../images/covid19.png") 80% 30% / 45% 55% no-repeat;
+		background: #fdfd55 url("/dist/imgs/covid19.png") 80% 30% / 45% 55% no-repeat;
 	}
 	.three {
-		background: #fdfd55 url("../images/handbook-medicine.png") 80% 30% / 45% 55% no-repeat;
+		background: #fdfd55 url("/dist/imgs/handbook-medicine.png") 80% 30% / 45% 55% no-repeat;
 	}
 	.four {
-		background: #fdfd55 url("../images/deteksi-dini.png") 80% 30% / 45% 55% no-repeat;
+		background: #fdfd55 url("/dist/imgs/deteksi-dini.png") 80% 30% / 45% 55% no-repeat;
 	}
 
 	.time-box {
@@ -253,4 +253,37 @@ nav .brand-logo {
 	#footer p {
 		font-size: 0.75rem;
 	}
+}
+
+
+/* gejala.hmtl */
+#tips li {
+	list-style-type: square;
+	margin-bottom: 5px;
+}
+#tips h6 {
+	font-weight: 700;
+}
+.gejala-image {
+	max-width: 100px;
+	object-fit: contain;
+}
+#daftarKasus {
+	padding: 1vw 10vw 2vw;
+	margin-bottom: 0;
+}
+.card-panel {
+	height: 150px;
+	border-radius: 10px;
+	background-color: rgb(255, 252, 252);
+}
+.case-kelamin,
+.case-umur {
+	font-weight: 600;
+}
+.add-btn {
+	background: #343a40;
+}
+form .input-field {
+	margin-top: 30px;
 }

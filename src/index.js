@@ -1,5 +1,4 @@
 import "./style/materialize.css";
-import "./style/main.css";
 import "./scripts/materialize.js";
 import "./scripts/init.js";
 import "./scripts/materialize.min.js";

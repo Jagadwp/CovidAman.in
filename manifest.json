@@ -1,7 +1,7 @@
 {
 	"name": "CovidAman.in",
 	"short_name": "CovidAman.in",
-	"start_url": "./dist/index.html",
+	"start_url": "/index.html",
 	"display": "standalone",
 	"background_color": "#fdfd55",
 	"theme_color": "#fdfd55",
