@@ -40,8 +40,8 @@ const displayCases = (data, id) => {
 
 const displayEditCases = (data, id) => {
 	const kasus = document.querySelector(`.case[data-id ="${id}"]`);
-	kasus.querySelector(".case-kelamin").innerHTML = data.kelamin;
-	kasus.querySelector(".case-umur").innerHTML = data.umur;
+	kasus.querySelector(".case-kelamin").innerHTML = `<em>${data.kelamin},</em>`;
+	kasus.querySelector(".case-umur").innerHTML = `<em>${data.umur} tahun</em>`;
 	kasus.querySelector(".case-gejala").innerHTML = data.gejala;
 };
 

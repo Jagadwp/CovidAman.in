@@ -25,7 +25,7 @@
 				background-color: rgb(255, 252, 252);
 			}
 			p {
-				color: black;
+				color: #343a40 !important;
 			}
 		</style>
 
@@ -48,7 +48,13 @@
 			<li><a href="/pages/kontak.html" class="">Tentang Kami</a></li>
 		</ul>
 
-		<section id="tips">
+		<div class="row time-box">
+			<div class="center-align col s4 day"></div>
+			<div class="center-align col s4 date"></div>
+			<div class="center-align col s4 hour"></div>
+		</div>
+
+		<section id="tips" style="padding-top: 7vh; padding-bottom: 10vh">
 			<div id="tipsKesehatan" class="tips-box-header">
 				<img class="header-icon" src="/dist/imgs/handbook-medicine.png" alt="bukuMedis" />
 				<h3>Gejala Umum</h3>
@@ -90,7 +96,7 @@
 			</div>
 		</section>
 
-		<section id="tips" style="padding-top: 2vw; padding-bottom: 1vw">
+		<section id="tips" style="padding-top: 0; padding-bottom: 10vh">
 			<div class="row left-align" style="padding: 0 10%">
 				<div class="col s12 m12 l6">
 					<h6>Gejala yang sedikit tidak umum:</h6>
@@ -146,7 +152,7 @@
 					>
 				</div>
 			</div>
-			<p>©Developed by Jagad Wijaya Purnomo</p>
+			<p style="color: white !important">©Developed by Jagad Wijaya Purnomo</p>
 		</footer>
 
 		<!-- Add Case side nav -->
@@ -156,15 +162,15 @@
 				<div class="divider"></div>
 				<div class="input-field">
 					<input placeholder="contoh: Laki-laki" id="kelamin" type="text" class="validate" />
-					<label for="title">Jenis Kelamin</label>
+					<label for="kelamin">Jenis Kelamin</label>
 				</div>
 				<div class="input-field">
 					<input placeholder="contoh: 72" id="umur" type="text" class="validate" />
-					<label for="title">Umur</label>
+					<label for="umur">Umur</label>
 				</div>
 				<div class="input-field">
 					<input placeholder="contoh: batuk, pilek" id="gejala" type="text" class="validate" />
-					<label for="ingredients">Gejala</label>
+					<label for="gejala">Gejala</label>
 				</div>
 				<div class="input-field center">
 					<button class="btn-small">Tambah</button>
@@ -180,15 +186,15 @@
 				<input type="hidden" name="case_id" , id="case_id" value />
 				<div class="input-field">
 					<input placeholder="contoh: Laki-laki" id="kelamin" type="text" class="validate" />
-					<label for="title">Jenis Kelamin</label>
+					<label for="kelamin">Jenis Kelamin</label>
 				</div>
 				<div class="input-field">
 					<input placeholder="contoh: 72" id="umur" type="text" class="validate" />
-					<label for="title">Umur</label>
+					<label for="umur">Umur</label>
 				</div>
 				<div class="input-field">
 					<input placeholder="contoh: batuk, pilek" id="gejala" type="text" class="validate" />
-					<label for="ingredients">Gejala</label>
+					<label for="gejala">Gejala</label>
 				</div>
 				<div class="input-field center">
 					<button class="btn-small">Tambah</button>
@@ -220,7 +226,7 @@
 		</script>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="/dist/bundle.js"></script>
-		<link type="text/css" href="/src/style/main.css" rel="stylesheet">
+		<link type="text/css" href="/src/style/main.css" rel="stylesheet" />
 		<script src="/dist/db.js"></script>
 		<script src="/dist/ui.js"></script>
 	</body>

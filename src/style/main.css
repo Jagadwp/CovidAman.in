@@ -130,6 +130,7 @@ nav .brand-logo {
 }
 .input-field > label {
 	font-size: 1.2rem;
+	color:#343a40;
 }
 
 /* tips */
@@ -204,6 +205,10 @@ nav .brand-logo {
 	.carousel-item {
 		padding: 10% 15%;
 	}
+	.carousel-item.one, .carousel-item.two  {
+		padding: 0% 15%;
+	}
+
 	.one {
 		background: #fdfd55 url("/dist/imgs/corona19_2.png") 80% 30% / 45% 55% no-repeat;
 	}
@@ -260,6 +265,7 @@ nav .brand-logo {
 #tips li {
 	list-style-type: square;
 	margin-bottom: 5px;
+	
 }
 #tips h6 {
 	font-weight: 700;

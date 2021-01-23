@@ -37,7 +37,11 @@ addForm.addEventListener("submit", (e) => {
 		.then((docRef) => M.toast({ html: `Data kasus berhasil ditambahkan!` }))
 		.catch((err) => M.toast({ html: `Terdapat kesalahan!` }));
 
-	addForm.reset();
+	// addForm.reset();
+	const sideForm = document.querySelector("#side-form");
+	sideForm.querySelector("#kelamin").value = "";
+	sideForm.querySelector("#umur").value = "";
+	sideForm.querySelector("#gejala").value = "";
 });
 
 //handle click icon
@@ -84,5 +88,8 @@ editForm.addEventListener("submit", (e) => {
 		.then((docRef) => M.toast({ html: `Kasus berhasil diupdate!` }))
 		.catch((err) => M.toast({ html: `Terdapat kesalahan!` }));
 
-	editForm.reset();
+	const rightForm = document.querySelector("#right-form");
+	rightForm.querySelector("#kelamin").value = "";
+	rightForm.querySelector("#umur").value = "";
+	rightForm.querySelector("#gejala").value = "";
 });
